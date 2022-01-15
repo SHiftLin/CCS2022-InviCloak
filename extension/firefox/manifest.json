@@ -1,0 +1,24 @@
+{
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "applications": {
+    "gecko": {
+      "strict_min_version": "57.0a1"
+    }
+  },
+  "manifest_version": 2,
+  "version": "5.3eval",
+  "description": "Check integrity of response data",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*:\/\/*\/*"
+  ],
+  "name": "InviCloak Integrity Verifier",
+  "icons": {
+    "48": "icons/pen.svg"
+  }
+}

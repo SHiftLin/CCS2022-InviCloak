@@ -1,0 +1,35 @@
+<!-- PAKE -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery.serializeJSON/2.9.0/jquery.serializejson.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/node-forge@0.7.0/dist/forge.min.js"></script>
+    <script src="js/nacl.min.js"></script>
+    <script src="js/nacl-util.min.js"></script> -->
+</head>
+
+<body>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js', { scope: '/' }).then(function (registration) {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function (error) {
+                console.log('ServiceWorker registration failed: ', error);
+            });
+        }
+    </script>
+
+    <form id="login-form" action="/login" method="post">
+        Username: <input type="text" name="username" id="username" /><br>
+        Password: <input type="text" name="password" id="password" /><br>
+        <input type="submit" value="login">
+    </form>
+    <a href="/signup">sign up</a>
+</body>
+
+
+</html>

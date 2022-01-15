@@ -1,0 +1,19 @@
+{
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Check integrity of response data",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*:\/\/*\/*"
+  ],
+  "name": "InviCloak Integrity Verifier",
+  "icons": {
+    "48": "icons/pen.svg"
+  }
+}
