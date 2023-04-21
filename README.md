@@ -1,7 +1,8 @@
 # CCS2022-InviCloak
 
-The code of InviCloak. Please read our [paper (CCS'22 )](https://dl.acm.org/doi/10.1145/3548606.3559336) for detail.
-Please see this [repo](https://github.com/SHiftLin/chromium) for the code of the Chromium patch mentioned in the paper.
+The code of InviCloak. Please refer to our [paper (CCS'22 )](https://dl.acm.org/doi/10.1145/3548606.3559336) for detail.
+
+Please check this [repo](https://github.com/SHiftLin/chromium) for the code of the Chromium patch mentioned in the paper.
 
 ## Bibtex
 ```
